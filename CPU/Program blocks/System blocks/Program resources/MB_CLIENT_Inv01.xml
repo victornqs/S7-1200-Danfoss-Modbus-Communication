@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V17" />
+  <DocumentInfo>
+    <Created>2021-11-12T21:16:16.2685152Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V17 Update 1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V17 Update 1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V17 Update1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G110M, G120, G120C, G120D, G120P, G115D</DisplayName>
+        <DisplayVersion>V17 Update1</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V17 Update1</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V17 Update 1</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Advanced</DisplayName>
+        <DisplayVersion>V17 Update 1</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <InstanceOfName>MB_CLIENT</InstanceOfName>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input">
+    <Member Name="REQ" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="DISCONNECT" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="CONNECT_ID" Datatype="UInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="IP_OCTET_1" Datatype="USInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="IP_OCTET_2" Datatype="USInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="IP_OCTET_3" Datatype="USInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="IP_OCTET_4" Datatype="USInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="IP_PORT" Datatype="UInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="MB_MODE" Datatype="USInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="MB_DATA_ADDR" Datatype="UDInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="MB_DATA_LEN" Datatype="UInt" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+  </Section>
+  <Section Name="Output">
+    <Member Name="DONE" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="BUSY" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="ERROR" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+    <Member Name="STATUS" Datatype="Word" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute></AttributeList></Member>
+  </Section>
+  <Section Name="InOut">
+    <Member Name="MB_DATA_PTR" Datatype="Variant" Accessibility="Public" />
+  </Section>
+  <Section Name="Static">
+    <Member Name="TCON_SFB" Datatype="TCON" Version="2.4" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="CONN_OUC" /></Section><Section Name="Output"><Member Name="DONE" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="Word" /></Section><Section Name="InOut"><Member Name="CONNECT" Datatype="TCON_Param" Version="1.0"><Sections><Section Name="None" /></Sections></Member></Section><Section Name="Static" /></Sections></Member>
+    <Member Name="TDISCON_SFB" Datatype="TDISCON" Version="2.1" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="CONN_OUC" /></Section><Section Name="Output"><Member Name="DONE" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="Word" /></Section><Section Name="InOut" /><Section Name="Static" /></Sections></Member>
+    <Member Name="TSEND_SFB" Datatype="TSEND" Version="2.1" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="REQ" Datatype="Bool" /><Member Name="ID" Datatype="CONN_OUC" /><Member Name="LEN" Datatype="UInt" /></Section><Section Name="Output"><Member Name="DONE" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="Word" /></Section><Section Name="InOut"><Member Name="DATA" Datatype="Variant" /><Member Name="ADDR" Datatype="TADDR_Param" Version="1.0"><Sections><Section Name="None" /></Sections></Member></Section><Section Name="Static" /></Sections></Member>
+    <Member Name="TRCV_SFB" Datatype="TRCV" Version="2.2" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="Input"><Member Name="EN_R" Datatype="Bool" /><Member Name="ID" Datatype="CONN_OUC" /><Member Name="LEN" Datatype="UInt" /></Section><Section Name="Output"><Member Name="NDR" Datatype="Bool" /><Member Name="BUSY" Datatype="Bool" /><Member Name="ERROR" Datatype="Bool" /><Member Name="STATUS" Datatype="Word" /><Member Name="RCVD_LEN" Datatype="UInt" /></Section><Section Name="InOut"><Member Name="DATA" Datatype="Variant" /><Member Name="ADDR" Datatype="TADDR_Param" Version="1.0"><Sections><Section Name="None" /></Sections></Member></Section><Section Name="Static" /></Sections></Member>
+    <Member Name="TCON_PARAM" Datatype="TCON_Param" Version="1.0" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="BLOCK_LENGTH" Datatype="UInt" /><Member Name="ID" Datatype="CONN_OUC" /><Member Name="CONNECTION_TYPE" Datatype="USInt" /><Member Name="ACTIVE_EST" Datatype="Bool" /><Member Name="LOCAL_DEVICE_ID" Datatype="USInt" /><Member Name="LOCAL_TSAP_ID_LEN" Datatype="USInt" /><Member Name="REM_SUBNET_ID_LEN" Datatype="USInt" /><Member Name="REM_STADDR_LEN" Datatype="USInt" /><Member Name="REM_TSAP_ID_LEN" Datatype="USInt" /><Member Name="NEXT_STADDR_LEN" Datatype="USInt" /><Member Name="LOCAL_TSAP_ID" Datatype="Array[1..16] of Byte" /><Member Name="REM_SUBNET_ID" Datatype="Array[1..6] of USInt" /><Member Name="REM_STADDR" Datatype="Array[1..6] of USInt" /><Member Name="REM_TSAP_ID" Datatype="Array[1..16] of Byte" /><Member Name="NEXT_STADDR" Datatype="Array[1..6] of Byte" /><Member Name="SPARE" Datatype="Word" /></Section></Sections></Member>
+    <Member Name="PF_FREQUENCY" Datatype="Real" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="BLOCKED_PROC_TIMEOUT" Datatype="Real" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="RCV_TIMEOUT" Datatype="Real" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="CURRENT_TIME_VALUE" Datatype="DWord" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_TIME_VALUE" Datatype="DWord" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="XMT_TIME" Datatype="DWord" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_CONNECT_ID" Datatype="Word" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_IP_PORT" Datatype="Word" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_MODE" Datatype="Byte" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_IP1" Datatype="Byte" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_IP2" Datatype="Byte" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_IP3" Datatype="Byte" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_IP4" Datatype="Byte" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_DATA_ADDR" Datatype="DWord" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_DATA_LEN" Datatype="Word" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="MB_STATE" Datatype="Word" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="COMM_SENT_COUNT" Datatype="Word" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="BYTE_COUNT" Datatype="Word" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="BYTE_COUNTB" Datatype="Byte" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_START_ADDR" Datatype="Word" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="MB_TRANSACTION_ID" Datatype="Word" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="MB_UNIT_ID" Datatype="Word" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="RETRIES" Datatype="Word" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="INIT_OK" Datatype="Bool" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="ACTIVE" Datatype="Bool" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="CONNECTED" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="SAVED_MA_REQ" Datatype="Bool" Remanence="NonRetain" Accessibility="Private"><AttributeList><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+  </Section>
+</Sections></Interface>
+      <Name>MB_CLIENT_Inv01</Name>
+      <Number>22</Number>
+      <OfSystemLibElement>MB_CLIENT</OfSystemLibElement>
+      <OfSystemLibVersion>2.0</OfSystemLibVersion>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>
